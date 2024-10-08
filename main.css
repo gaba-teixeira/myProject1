@@ -6,21 +6,30 @@
 
 header {
   padding: 16px 0;
-  background-color: #182c61;
-  color: #ecf0f1;
-  font-family: "Bungee", sans-serif;
-  font-weight: normal;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
+  color: #fff;
+  font-family: "Playwrite DE Grund", cursive;
 }
 body,
 input,
 textarea {
-  font-family: "Roboto", system-ui;
+  font-family: "Nanum Gothic Coding", monospace;
 }
 
 header nav li {
   display: inline;
   margin: auto 16px;
   font-size: 16px;
+}
+
+header h2 {
+  opacity: 90%;
+  font-size: 18px;
 }
 
 header nav a {
@@ -57,15 +66,15 @@ section .container {
 
 #about {
   padding: 24px 0;
-  color: #182c61;
+  color: #3a0431;
 }
 
 section h2 {
   margin-bottom: 16px;
-  font-family: "Bungee", sans-serif;
+  font-family: "Playwrite DE Grund", cursive;
   font-size: 20px;
   font-weight: normal;
-  color: #182c61;
+  color: #3a0431;
 }
 
 section p {
@@ -120,7 +129,7 @@ section p {
   display: flex;
   justify-content: space-between;
   margin-top: 8px;
-  color: #182c61;
+  color: #3a0431;
 }
 
 form input,
@@ -134,7 +143,7 @@ button {
 
 form input:focus,
 textarea:focus {
-  outline-color: #182c61;
+  outline-color: #3a0431;
 }
 
 form textarea {
@@ -143,36 +152,41 @@ form textarea {
 }
 
 form button {
-  background-color: #182c61;
+  background-color: #3a0431;
   color: #fff;
   border-radius: 10px;
   border: none;
-  font-family: "Bungee", sans-serif;
+  padding: 10px;
 }
 
 form button:hover {
-  color: #182c61;
+  color: #3a0431;
   background-color: #fff;
   cursor: pointer;
 }
 section h3,
 form {
-  color: #182c61;
-  font-family: "Bungee", sans-serif;
-  font-size: 16px;
+  color: #3a0431;
+
+  font-size: 18px;
   font-weight: normal;
   margin-bottom: 8px;
 }
 
 footer {
-  background-color: #182c61;
-  color: #ecf0f1;
-  opacity: 90%;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(253, 239, 132) 0%,
+    rgb(247, 198, 169) 54.2%,
+    rgb(21, 186, 196) 100.3%
+  );
+  color: black;
   padding: 16px 0;
   text-align: center;
   font-size: small;
+  font-weight: bold;
 }
 
 footer a {
-  color: #ecf0f1;
+  color: black;
 }
